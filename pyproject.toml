@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "neuralmoves"
+version = "0.1"
+description = 'A python package to use NeuralMOVES, a lighter, faster and microscopic version of MOVES'
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Edgar Ramirez Sanchez", email = "edgarrs@mit.edu" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+dependencies = []
+
+[project.urls]
+Documentation = "https://github.com/Edgar Ramirez Sanchez/neuralmoves#readme"
+Issues = "https://github.com/Edgar Ramirez Sanchez/neuralmoves/issues"
+Source = "https://github.com/Edgar Ramirez Sanchez/neuralmoves"
+
