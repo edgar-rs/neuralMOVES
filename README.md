@@ -22,10 +22,9 @@ NeuralMOVES is an open-source Python package that provides surrogate models for 
 
 The development of Neuralmoves has been documented and shared at: 
 
-- Finished project presented at the Conference in Emerging Technologies in Transportation Systems (TRC-30)
+- Project presented at the Conference in Emerging Technologies in Transportation Systems (TRC-30)
 September 02-03, 2024, Crete, Greece: https://easychair.org/smart-program/TRC-30/2024-09-04.html#talk:261921
-Methodology and results are summarized in the TRC-30 extended abstract available as a pdf file in the github repository. 
-A full journal paper on the development of NeuralMOVES will be linked here soon. 
+Methodology and results are summarized in the TRC-30 extended abstract available as a pdf file in the github repository. The full paper on the development of NeuralMOVES will be linked here upon publication. 
 - (Previous) Early develpments presented at the Advances in Neural Information Processing Systems (NeurIPS) Conference, 2022. Workshop on Tackling Climate Change with Machine Learning. Paper, slides, and recorded talk available at: https://www.climatechange.ai/papers/neurips2022/90
 
 *Notable applications*: 
