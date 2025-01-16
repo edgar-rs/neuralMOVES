@@ -5,7 +5,6 @@
 ## Table of Contents
 
 - [Overview](#overview)
-- [Publications and impact](#publications_and_impact)
 - [Key Features](#key_features)
 - [Installation](#installation)
 - [Usage](#usage)
