@@ -18,18 +18,6 @@
 
 NeuralMOVES is an open-source Python package that provides surrogate models for diverse vehicle emission calculations. It offers a fast, accurate, and lightweight alternative to the EPA's Motor Vehicle Emission Simulator (MOVES).
 
-## Publications and impact
-
-The development of Neuralmoves has been documented and shared at: 
-
-- Project presented at the Conference in Emerging Technologies in Transportation Systems (TRC-30)
-September 02-03, 2024, Crete, Greece: https://easychair.org/smart-program/TRC-30/2024-09-04.html#talk:261921
-Methodology and results are summarized in the TRC-30 extended abstract available as a pdf file in the github repository. The full paper on the development of NeuralMOVES will be linked here upon publication. 
-- (Previous) Early develpments presented at the Advances in Neural Information Processing Systems (NeurIPS) Conference, 2022. Workshop on Tackling Climate Change with Machine Learning. Paper, slides, and recorded talk available at: https://www.climatechange.ai/papers/neurips2022/90
-
-*Notable applications*: 
-NeuralMOVES has been a key enabler in the large-scale impact assessment in eco-driving for signalized intersections study, which shows that intersection emissions can be cut by 11-22%, which could lead to a reduction in US carbon emissions by up to around 123 million tonnes. Featured in New Scientist: https://www.newscientist.com/article/2445202-a-simple-driving-trick-could-make-a-big-dent-in-cars-carbon-emissions/ 
-Full project information and publication: Mitigating Metropolitan Carbon Emissions with Semi-autonomous Vehicles using Deep Reinforcement Learning. https://vindulamj.github.io/eco-drive/
 
 ## Key Features
 
