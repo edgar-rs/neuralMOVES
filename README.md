@@ -31,7 +31,7 @@ NeuralMOVES is an open-source Python package that provides surrogate models for 
 NeuralMOVES can be installed using pip:
 
 ```console
-python -m pip install git+https://github.mit.edu/edgarrs/neuralmoves.git@main
+python -m pip install git+https://github.com/edgar-rs/neuralMOVES.git@main
 ```
 
 ## Usage
