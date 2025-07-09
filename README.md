@@ -43,10 +43,10 @@ import pandas as pd
 
 # Example driving cycle data
 df_speed_acceleration_grade = pd.DataFrame({
-    'speed': [0, 5, 10, 15, 20],
-    'acceleration': [0, 1, 0, -1, 0],
-    'grade': [0, 0, 1, 1, 0]
-})
+    'speed': [0, 5, 10, 15, 20],         # Vechile speed at each second [m/s]
+    'acceleration': [0, 1, 0, -1, 0],    # Vechile acceleration at each second [m/s2]
+    'grade': [0, 0, 1, 1, 0]             # Road grade, angle of the road [100 * delta Z (elevation)/ delta X (horizontal)]
+}) # Sceanrio is 5 seconds but can take any size
 
 # Calculate emissions
 emissions = neuralmoves.get_emissions(
