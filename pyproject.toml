@@ -25,6 +25,7 @@ classifiers = [
 # Torch is needed at runtime for model inference
 dependencies = [
   "torch>=1.13",
+  "numpy"
 ]
 
 [project.urls]
