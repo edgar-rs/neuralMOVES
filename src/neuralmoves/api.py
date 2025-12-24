@@ -140,7 +140,7 @@ def estimate_running_co2(
     
     # Run inference
     with torch.no_grad():
-        pred = float(model(x).item())
+        pred = float(model(x).cpu().item())
     
     # Apply idling floor if requested
     if apply_idling_floor:
@@ -254,7 +254,7 @@ def estimate_emissions_timeseries(
     
     # Batch inference
     with torch.no_grad():
-        preds = model(X_tensor).numpy().flatten()
+        preds = model(X_tensor).cpu().numpy().flatten()
     
     # Apply idling floor if requested
     if apply_idling_floor:
