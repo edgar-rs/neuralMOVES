@@ -4,47 +4,67 @@ build-backend = "hatchling.build"
 
 [project]
 name = "neuralmoves"
-version = "0.2.0"
-description = "NeuralMOVES: lightweight microscopic surrogate of MOVES running-exhaust CO₂"
+version = "0.3.0"
+description = "NeuralMOVES: lightweight microscopic surrogate of EPA MOVES for vehicle CO₂ emissions"
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
-authors = [{ name = "Edgar Ramírez Sánchez", email = "edgarrs@mit.edu" }]
-keywords = ["emissions", "MOVES", "transportation", "surrogate", "CO2"]
-classifiers = [
-  "Development Status :: 4 - Beta",
-  "Intended Audience :: Science/Research",
-  "License :: OSI Approved :: MIT License",
-  "Programming Language :: Python :: 3",
-  "Programming Language :: Python :: 3.9",
-  "Programming Language :: Python :: 3.10",
-  "Programming Language :: Python :: 3.11",
-  "Programming Language :: Python :: 3.12",
-  "Topic :: Scientific/Engineering",
+authors = [
+    { name = "Edgar Ramírez Sánchez", email = "edgarrs@mit.edu" }
 ]
-# Torch is needed at runtime for model inference
+keywords = [
+    "emissions",
+    "MOVES",
+    "transportation",
+    "CO2",
+    "vehicle",
+    "neural-network",
+    "surrogate-model"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+]
+
 dependencies = [
-  "torch>=1.13",
-  "numpy"
+    "torch>=1.13",
+    "numpy>=1.20",
+    "pandas>=1.3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov",
+    "black",
+    "ruff",
 ]
 
 [project.urls]
 Homepage = "https://github.com/edgar-rs/neuralMOVES"
+Documentation = "https://github.com/edgar-rs/neuralMOVES#readme"
 Issues = "https://github.com/edgar-rs/neuralMOVES/issues"
+Source = "https://github.com/edgar-rs/neuralMOVES"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/neuralmoves"]
-# include non-code resources inside the package
-# (weights, csvs, typing marker)
-include = [
-  "src/neuralmoves/idling_emissions.csv",
-  "src/neuralmoves/error_lookup.csv",
-  "src/neuralmoves/NN_3/*.pt",
-  "src/neuralmoves/py.typed",
-]
+
+[tool.hatch.build.targets.wheel.force-include]
+"src/neuralmoves/NN_3" = "neuralmoves/NN_3"
+"src/neuralmoves/idling_emissions.csv" = "neuralmoves/idling_emissions.csv"
 
 [tool.hatch.build]
 exclude = [
-  "tests",
-  ".github",
+    "tests/",
+    ".github/",
+    "*.ipynb",
+    "__pycache__/",
 ]
