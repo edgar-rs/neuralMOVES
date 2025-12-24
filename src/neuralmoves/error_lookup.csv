@@ -1,0 +1,48 @@
+scope,category,subcategory,MAPE,MPE,MdPE,StdPE,MAE_g
+overall,Overall,All Data,6.01,2.46,1.22,8.9,28.65
+category,Fuel Type,Gasoline,5.51,2.03,0.86,8.33,27.95
+category,Fuel Type,Diesel,6.77,3.1,1.84,9.67,29.72
+category,Vehicle Type,Motorcycles,4.68,0.86,-0.2,7.6,14.09
+category,Vehicle Type,Passenger Car,6.87,3.5,2.09,9.72,20.41
+category,Vehicle Type,Passenger Truck,5.22,2.52,1.66,7.29,13.11
+category,Vehicle Type,Light Commercial Truck,5.32,2.39,1.57,7.48,10.17
+category,Vehicle Type,Transit Bus,7.97,3.03,1.41,11.45,85.48
+category,Road Grade,Downhill,8.09,4.81,4.78,9.83,22.69
+category,Road Grade,Zero Grade,4.78,0.34,0.16,6.51,24.56
+category,Road Grade,Uphill,4.18,0.53,-0.57,7.69,35.45
+combo,Gasoline × Motorcycles,,4.68,0.86,-0.2,7.6,14.09
+combo,Gasoline × Motorcycles × Downhill,,5.0,1.58,0.6,6.59,11.27
+combo,Gasoline × Motorcycles × Zero Grade,,4.56,0.43,0.33,6.12,11.89
+combo,Gasoline × Motorcycles × Uphill,,4.38,0.22,-0.94,8.68,17.36
+combo,Gasoline × Passenger Car,,6.7,3.39,1.91,9.21,19.94
+combo,Gasoline × Passenger Car × Downhill,,9.62,7.52,7.54,9.66,17.71
+combo,Gasoline × Passenger Car × Zero Grade,,4.37,-0.69,-0.99,5.75,12.53
+combo,Gasoline × Passenger Car × Uphill,,4.24,0.07,-1.08,7.44,23.65
+combo,Gasoline × Passenger Truck,,4.92,2.36,1.58,7.0,20.09
+combo,Gasoline × Passenger Truck × Downhill,,6.3,4.51,4.06,6.95,16.88
+combo,Gasoline × Passenger Truck × Zero Grade,,3.77,0.17,-0.14,4.84,13.78
+combo,Gasoline × Passenger Truck × Uphill,,3.77,0.63,-0.45,6.8,24.56
+combo,Gasoline × Light Commercial Truck,,4.96,2.24,1.44,7.18,17.62
+combo,Gasoline × Light Commercial Truck × Downhill,,6.17,4.34,3.94,7.05,14.14
+combo,Gasoline × Light Commercial Truck × Zero Grade,,3.87,-0.16,-0.98,4.92,12.19
+combo,Gasoline × Light Commercial Truck × Uphill,,3.97,0.61,-0.46,7.11,22.2
+combo,Gasoline × Transit Bus,,7.13,2.48,1.17,10.49,81.84
+combo,Gasoline × Transit Bus × Downhill,,9.82,4.78,6.33,11.97,62.25
+combo,Gasoline × Transit Bus × Zero Grade,,6.63,0.67,1.13,8.57,80.37
+combo,Gasoline × Transit Bus × Uphill,,4.53,0.55,-0.67,8.62,101.77
+combo,Diesel × Passenger Car,,7.04,3.61,2.27,10.21,20.88
+combo,Diesel × Passenger Car × Downhill,,10.33,7.23,7.9,11.56,19.15
+combo,Diesel × Passenger Car × Zero Grade,,4.33,-0.91,-1.02,5.67,13.05
+combo,Diesel × Passenger Car × Uphill,,4.28,0.89,-0.35,8.03,24.19
+combo,Diesel × Passenger Truck,,5.53,2.68,1.76,7.56,6.14
+combo,Diesel × Passenger Truck × Downhill,,7.5,5.59,5.54,7.84,5.42
+combo,Diesel × Passenger Truck × Zero Grade,,4.06,1.15,1.2,5.55,4.1
+combo,Diesel × Passenger Truck × Uphill,,3.85,0.07,-0.73,6.5,7.26
+combo,Diesel × Light Commercial Truck,,5.68,2.54,1.73,7.76,2.72
+combo,Diesel × Light Commercial Truck × Downhill,,7.41,4.46,4.91,8.27,2.34
+combo,Diesel × Light Commercial Truck × Zero Grade,,4.5,1.14,0.99,5.94,1.94
+combo,Diesel × Light Commercial Truck × Uphill,,4.19,0.9,-0.05,7.08,3.26
+combo,Diesel × Transit Bus,,8.82,3.57,1.66,12.31,89.13
+combo,Diesel × Transit Bus × Downhill,,13.75,6.48,8.38,15.58,66.45
+combo,Diesel × Transit Bus × Zero Grade,,7.11,1.2,1.06,9.54,83.91
+combo,Diesel × Transit Bus × Uphill,,4.24,1.13,-0.06,7.52,112.88
