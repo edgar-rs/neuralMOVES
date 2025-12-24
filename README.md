@@ -53,7 +53,7 @@ emission = neuralmoves.estimate_running_co2(
     temp=25,                # Temperature: 25°C
     temp_unit='C',          
     humid_pct=50,           # Relative humidity: 50%
-    model_year=2020,        # Vehicle model year
+    model_year=2019,        # Vehicle model year
     source_type='Passenger Car',
     fuel_type='Gasoline'
 )
@@ -84,7 +84,7 @@ for _, row in driving_cycle.iterrows():
         a_mps2=row['acceleration_mps2'],
         grade_pct=row['grade_pct'],
         temp=25, temp_unit='C', humid_pct=50,
-        model_year=2020,
+        model_year=2019,
         source_type='Passenger Car',
         fuel_type='Gasoline'
     )
@@ -118,7 +118,7 @@ print(f"Gasoline Passenger Car MAPE: {error['MAPE']}%")
 emission = neuralmoves.estimate_running_co2(
     v_ms=15.0, a_mps2=0.5, grade_pct=0.0,
     temp=25, temp_unit='C', humid_pct=50,
-    model_year=2020, source_type='Passenger Car', fuel_type='Gasoline'
+    model_year=2019, source_type='Passenger Car', fuel_type='Gasoline'
 )
 
 mape = float(error['MAPE'])
@@ -133,7 +133,7 @@ import neuralmoves
 
 # Get idling emission rate
 idling = neuralmoves.idling_rate(
-    model_year=2020,
+    model_year=2019,
     source_type='Passenger Car',
     fuel_type='Gasoline'
 )
