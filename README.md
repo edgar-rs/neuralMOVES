@@ -7,7 +7,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
-- [Paper and Citation](#paper and citation)
+- [Paper and Citation](#paper-and-citation)
 - [Key Features](#key-features)
 - [Installation](#installation)
 - [Usage](#usage)
