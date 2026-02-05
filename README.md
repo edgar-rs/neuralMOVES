@@ -1,3 +1,5 @@
+[![Paper](https://img.shields.io/badge/paper-TR--C%202026-blue)](https://www.sciencedirect.com/science/article/pii/S0968090X26000185) 
+
 # NeuralMOVES
 
 -----
@@ -5,10 +7,11 @@
 ## Table of Contents
 
 - [Overview](#overview)
-- [Key Features](#key_features)
+- [Paper and Citation](#paper and citation)
+- [Key Features](#key-features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Future develpments](#future)
+- [Future developments](#future-developments)
 - [License](#license)
 - [Contact](#contact)
 
@@ -17,6 +20,15 @@
 
 NeuralMOVES is an open-source Python package that provides surrogate models for diverse vehicle emission calculations. It offers a fast, accurate, and lightweight alternative to the EPA's Motor Vehicle Emission Simulator (MOVES).
 
+## Paper and Citation
+NeuralMOVES is an academic effort. If you use NeuralMOVES, please cite the paper: 
+
+**Paper:** 
+NeuralMOVES — Transportation Research Part C (2026): https://authors.elsevier.com/a/1mXcD,M0mRcnKv
+
+**Citation:**
+- BibTeX: [`CITATION.bib`](./CITATION.bib)
+- Or use GitHub’s **Cite this repository** button to export a citation.
 
 ## Key Features
 
