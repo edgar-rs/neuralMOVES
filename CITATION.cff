@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use NeuralMOVES, please cite the paper below (preferred citation) and the software."
+title: "NeuralMOVES"
+type: software
+authors:
+  - family-names: "Ramirez-Sanchez"
+    given-names: "Edgar"
+  - family-names: "Tang"
+    given-names: "Catherine"
+  - family-names: "Xu"
+    given-names: "Yaosheng"
+  - family-names: "Renganathan"
+    given-names: "Nrithya"
+  - family-names: "Jayawardana"
+    given-names: "Vindula"
+  - family-names: "He"
+    given-names: "Zhengbing"
+  - family-names: "Wu"
+    given-names: "Cathy"
+repository-code: "https://github.com/edgar-rs/neuralMOVES"
+url: "https://github.com/edgar-rs/neuralMOVES"
+license: "MIT"
+
+# Please cite both the paper and the software
+preferred-citation:
+  type: article
+  title: "NeuralMOVES: A lightweight and microscopic vehicle emission estimation model based on reverse engineering and surrogate learning"
+  authors:
+    - family-names: "Ramirez-Sanchez"
+      given-names: "Edgar"
+    - family-names: "Tang"
+      given-names: "Catherine"
+    - family-names: "Xu"
+      given-names: "Yaosheng"
+    - family-names: "Renganathan"
+      given-names: "Nrithya"
+    - family-names: "Jayawardana"
+      given-names: "Vindula"
+    - family-names: "He"
+      given-names: "Zhengbing"
+    - family-names: "Wu"
+      given-names: "Cathy"
+  journal: "Transportation Research Part C: Emerging Technologies"
+  year: 2026
+  volume: 184
+  pages: 105530
+  doi: "10.1016/j.trc.2026.105530"
+  url: "https://www.sciencedirect.com/science/article/pii/S0968090X26000185"
