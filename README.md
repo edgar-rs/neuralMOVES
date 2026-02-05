@@ -23,12 +23,9 @@ NeuralMOVES is an open-source Python package that provides surrogate models for 
 ## Paper and Citation
 NeuralMOVES is an academic effort. If you use NeuralMOVES, please cite the paper: 
 
-**Paper:** 
-NeuralMOVES — Transportation Research Part C (2026): https://authors.elsevier.com/a/1mXcD,M0mRcnKv
+**Paper:** NeuralMOVES — Transportation Research Part C (2026): https://authors.elsevier.com/a/1mXcD,M0mRcnKv
 
-**Citation:**
-- BibTeX: [`CITATION.bib`](./CITATION.bib)
-- Or use GitHub’s **Cite this repository** button to export a citation.
+**Citation:** (BibTeX: [`CITATION.bib`](./CITATION.bib)) **OR** (Use GitHub’s **Cite this repository** button to export a citation.)
 
 ## Key Features
 
