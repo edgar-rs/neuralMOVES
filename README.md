@@ -164,7 +164,7 @@ For more detailed examples including:
 See the [comprehensive usage guide](examples/comprehensive_usage_guide.ipynb) in the `examples/` directory.
 ## Future Developments 
 
-The NeuralMOVES team is actively working on:
+There are several natural avenues for extending NeuralMOVES (community contributions welcome), including:
 
 - **Traffic simulator integration** - Native support for SUMO, Vissim, and other major platforms
 - **Additional pollutants** - Extending beyond CO₂ to NOx, PM, and other emissions
