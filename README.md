@@ -46,7 +46,7 @@ NeuralMOVES is an academic effort. If you use NeuralMOVES, please cite the paper
 NeuralMOVES can be installed using pip:
 
 ```bash
-python -m pip install "git+https://github.com/edgar-rs/neuralMOVES.git@main"
+pip install neuralmoves
 ```
 
 ## Usage
