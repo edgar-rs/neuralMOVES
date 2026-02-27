@@ -60,11 +60,6 @@ Source = "https://github.com/edgar-rs/neuralMOVES"
 [tool.hatch.build.targets.wheel]
 packages = ["src/neuralmoves"]
 
-[tool.hatch.build.targets.wheel.force-include]
-"src/neuralmoves/NN_3" = "neuralmoves/NN_3"
-"src/neuralmoves/idling_emissions.csv" = "neuralmoves/idling_emissions.csv"
-"src/neuralmoves/defaults" = "neuralmoves/defaults"
-
 [tool.hatch.build]
 exclude = [
     "tests/",
